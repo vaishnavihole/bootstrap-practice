@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <title>Resto Festo!</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Resto Festo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,23 +24,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-           Menus
+            Menus
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">North Indian Food</a>
-            <a class="dropdown-item" href="#">South Indian Food</a>
+            <a class="dropdown-item" href="#">North Indian</a>
+            <a class="dropdown-item" href="#">South Indian</a>
             <a class="dropdown-item" href="#">Fast Food</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
         </li>
         
       </ul>
@@ -50,20 +50,36 @@
       </form>
     </div>
   </nav>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item active" aria-current="page">Home</li>
-    </ol>
-  </nav>
-  
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Library</li>
-    </ol>
-  </nav>
-  
 
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="card-deck ">
+      <div class="card mt-4">
+        <img src="pizza.png" class="card-img-top " >
+        <div class="card-body">
+          <h5 class="card-title  text-center">Fast Food</h5>
+          <p class="card-text">Fast food is a type of mass-produced food designed for commercial resale, with a strong priority placed on speed of service. It is a commercial term, limited to food sold in a restaurant or store with frozen, preheated or precooked ingredients and served in packaging for take-out/take-away. </p>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <img src="south.png" class="card-img-top " >
+        <div class="card-body">
+          <h5 class="card-title  text-center">South Indian</h5>
+          <p class="card-text">Fast food is a type of mass-produced food designed for commercial resale, with a strong priority placed on speed of service. It is a commercial term, limited to food sold in a restaurant or store with frozen, preheated or precooked ingredients and served in packaging for take-out/take-away.</p>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <img src="north.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">North Indian</h5>
+          <p class="card-text">Fast food is a type of mass-produced food designed for commercial resale, with a strong priority placed on speed of service. It is a commercial term, limited to food sold in a restaurant or store with frozen, preheated or precooked ingredients and served in packaging for take-out/take-away.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
